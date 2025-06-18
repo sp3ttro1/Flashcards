@@ -16,3 +16,7 @@ This React app helps users study Spanish verbs through interactive flashcards.
 ## Screenshot
 
 ![Flashcard Screenshot](./screenshot.png)
+
+## Demo GIF
+
+![Flashcard Demo](./demo.gif)
