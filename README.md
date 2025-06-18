@@ -1,12 +1,18 @@
-# React + Vite
+# Spanish Verbs Flashcards 🌿
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React app helps users study Spanish verbs through interactive flashcards.
 
-Currently, two official plugins are available:
+## Features Implemented
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ The app displays the **title** of the card set.
+- ✅ A **short description** is displayed below the title.
+- ✅ The **total number of cards** is shown.
+- ✅ The card set is a list of pairs (an array of dictionaries with `verb`, `meaning`, and `example`).
+- ✅ Only **one card is shown at a time**.
+- ✅ Each card displays only one side (front or back).
+- ✅ Clicking the card **flips** it to show the back (and flips again to return to the front).
+- ✅ Clicking the **Next** button shows a **new random card**.
 
-## Expanding the ESLint configuration
+## Screenshot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Flashcard Screenshot](./screenshot.png)
